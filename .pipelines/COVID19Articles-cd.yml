@@ -23,6 +23,8 @@ resources:
         include:
         - master
 
+pool: olduser591807-project-agent-pool
+
 variables:
 - template: COVID19Articles-variables-template.yml
 - group: devopsforai-aml-vg
